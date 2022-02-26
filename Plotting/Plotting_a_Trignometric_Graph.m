@@ -1,0 +1,1 @@
+close all;clc;clear;x = 0:0.1: 2 * pi;y = sin(x) + cos(x)plot(x,y)hold onj = 0*x plot(x,j)%To create a line where y component is zero for referencez = sin(x)plot(x,z)w = cos(x)plot(x,w)hold off
